@@ -1,244 +1,243 @@
-
-import java.util.Map;
+import android.graphics.Color;
 
 public class Colors {
 
-    public static final String NONE = "transparent";
+    public static final int NONE = Color.TRANSPARENT;
 
-    public static final String WHITE = "#ffffff";
+    public static final int WHITE = 0xFFFFFFFF;
 
-    public static final String BLACK = "#111111";
+    public static final int BLACK = 0xFF111111;
 
-    public static final Map<String, String> CHIFFON = Map.of(
-        "100", "#FAFAFA",
-        "200", "#F8F8F8",
-        "300", "#F4F4F4",
-        "400", "#EEEEEE",
-        "500", "#E2E2E2",
-        "600", "#CCCCCC",
-        "700", "#C2C2C2",
-        "800", "#BBBBBB"
-    );
+    public static class CHIFFON {
+        public static final int _100 = 0xFFFAFAFA;
+        public static final int _200 = 0xFFF8F8F8;
+        public static final int _300 = 0xFFF4F4F4;
+        public static final int _400 = 0xFFEEEEEE;
+        public static final int _500 = 0xFFE2E2E2;
+        public static final int _600 = 0xFFCCCCCC;
+        public static final int _700 = 0xFFC2C2C2;
+        public static final int _800 = 0xFFBBBBBB;
+    }
 
-    public static final Map<String, String> TEL = Map.of(
-        "100", "#F8F9Fc",
-        "200", "#F5F7Fc",
-        "300", "#F3F4FC",
-        "400", "#EEF4FD",
-        "500", "#E5EDF8",
-        "600", "#E3EBF6"
-    );
+    public static class TEL {
+        public static final int _100 = 0xFFF8F9FC;
+        public static final int _200 = 0xFFF5F7FC;
+        public static final int _300 = 0xFFF3F4FC;
+        public static final int _400 = 0xFFEEF4FD;
+        public static final int _500 = 0xFFE5EDF8;
+        public static final int _600 = 0xFFE3EBF6;
+    }
 
-    public static final Map<String, String> GREY = Map.of(
-        "100", "#aaaaaa",
-        "200", "#9D9E9F",
-        "300", "#898A8D",
-        "400", "#797979",
-        "500", "#666666",
-        "600", "#555555",
-        "700", "#444444",
-        "800", "#333333",
-        "900", "#222222"
-    );
+    public static class GREY {
+        public static final int _100 = 0xFFAAAAAA;
+        public static final int _200 = 0xFF9D9E9F;
+        public static final int _300 = 0xFF898A8D;
+        public static final int _400 = 0xFF797979;
+        public static final int _500 = 0xFF666666;
+        public static final int _600 = 0xFF555555;
+        public static final int _700 = 0xFF444444;
+        public static final int _800 = 0xFF333333;
+        public static final int _900 = 0xFF222222;
+    }
 
-    public static final Map<String, String> NAVY = Map.of(
-        "100", "#9DA5B6",
-        "200", "#78829A",
-        "300", "#6E7993",
-        "400", "#56647F",
-        "500", "#445067",
-        "600", "#384661",
-        "700", "#31405E",
-        "800", "#263551"
-    );
+    public static class NAVY {
+        public static final int _100 = 0xFF9DA5B6;
+        public static final int _200 = 0xFF78829A;
+        public static final int _300 = 0xFF6E7993;
+        public static final int _400 = 0xFF56647F;
+        public static final int _500 = 0xFF445067;
+        public static final int _600 = 0xFF384661;
+        public static final int _700 = 0xFF31405E;
+        public static final int _800 = 0xFF263551;
+    }
 
-    public static final Map<String, String> BLUE = Map.of(
-        "100", "#72AAFF",
-        "200", "#6BA1F7",
-        "300", "#5E9EFF",
-        "400", "#5294FF",
-        "500", "#4788f4",
-        "600", "#3F87FF",
-        "700", "#2F7DFF",
-        "800", "#1D70FB"
-    );
+    public static class BLUE {
+        public static final int _100 = 0xFF72AAFF;
+        public static final int _200 = 0xFF6BA1F7;
+        public static final int _300 = 0xFF5E9EFF;
+        public static final int _400 = 0xFF5294FF;
+        public static final int _500 = 0xFF4788F4;
+        public static final int _600 = 0xFF3F87FF;
+        public static final int _700 = 0xFF2F7DFF;
+        public static final int _800 = 0xFF1D70FB;
+    }
 
-    public static final Map<String, String> LIGHT_BLUE = Map.of(
-        "100", "#86D3FF",
-        "200", "#76CDFE",
-        "300", "#67C4F9",
-        "400", "#55BEFA",
-        "500", "#43BAFF",
-        "600", "#38B5FB",
-        "700", "#32B5FF",
-        "800", "#19ACFF"
-    );
+    public static class LIGHT_BLUE {
+        public static final int _100 = 0xFF86D3FF;
+        public static final int _200 = 0xFF76CDFE;
+        public static final int _300 = 0xFF67C4F9;
+        public static final int _400 = 0xFF55BEFA;
+        public static final int _500 = 0xFF43BAFF;
+        public static final int _600 = 0xFF38B5FB;
+        public static final int _700 = 0xFF32B5FF;
+        public static final int _800 = 0xFF19ACFF;
+    }
 
-    public static final Map<String, String> DARK_BLUE = Map.of(
-        "100", "#7280FF",
-        "200", "#6B71F7",
-        "300", "#6171FF",
-        "400", "#5969FB",
-        "500", "#5263FF",
-        "600", "#4B5DFF",
-        "700", "#4456F9",
-        "800", "#3448FF",
-        "900", "#2E42F6"
-    );
+    public static class DARK_BLUE {
+        public static final int _100 = 0xFF7280FF;
+        public static final int _200 = 0xFF6B71F7;
+        public static final int _300 = 0xFF6171FF;
+        public static final int _400 = 0xFF5969FB;
+        public static final int _500 = 0xFF5263FF;
+        public static final int _600 = 0xFF4B5DFF;
+        public static final int _700 = 0xFF4456F9;
+        public static final int _800 = 0xFF3448FF;
+        public static final int _900 = 0xFF2E42F6;
+    }
 
-    public static final Map<String, String> PURPLE = Map.of(
-        "100", "#A791FF",
-        "200", "#AB83FF",
-        "300", "#9B6DFE",
-        "400", "#8F5BFF",
-        "500", "#9A4BFF",
-        "600", "#903DFA",
-        "700", "#8527FD",
-        "800", "#7C15FF"
-    );
+    public static class PURPLE {
+        public static final int _100 = 0xFFA791FF;
+        public static final int _200 = 0xFFAB83FF;
+        public static final int _300 = 0xFF9B6DFE;
+        public static final int _400 = 0xFF8F5BFF;
+        public static final int _500 = 0xFF9A4BFF;
+        public static final int _600 = 0xFF903DFA;
+        public static final int _700 = 0xFF8527FD;
+        public static final int _800 = 0xFF7C15FF;
+    }
 
-    public static final Map<String, String> YELLOW = Map.of(
-        "100", "#FFE793",
-        "200", "#FFE072",
-        "300", "#FFDD64",
-        "400", "#FFCF72",
-        "500", "#FFDA17",
-        "600", "#FFD336",
-        "700", "#FFD600",
-        "800", "#F7D000"
-    );
+    public static class YELLOW {
+        public static final int _100 = 0xFFFFE793;
+        public static final int _200 = 0xFFFFE072;
+        public static final int _300 = 0xFFFFDD64;
+        public static final int _400 = 0xFFFFCF72;
+        public static final int _500 = 0xFFFFDA17;
+        public static final int _600 = 0xFFFFD336;
+        public static final int _700 = 0xFFFFD600;
+        public static final int _800 = 0xFFF7D000;
+    }
 
-    public static final Map<String, String> ORANGE = Map.of(
-        "100", "#FFD687",
-        "200", "#FFCF72",
-        "300", "#FFC452",
-        "400", "#FFB932",
-        "500", "#FEB703",
-        "600", "#FFAC0A",
-        "700", "#FF9900",
-        "800", "#F9A401"
-    );
+    public static class ORANGE {
+        public static final int _100 = 0xFFFFD687;
+        public static final int _200 = 0xFFFFCF72;
+        public static final int _300 = 0xFFFFC452;
+        public static final int _400 = 0xFFFFB932;
+        public static final int _500 = 0xFFFEB703;
+        public static final int _600 = 0xFFFFAC0A;
+        public static final int _700 = 0xFFFF9900;
+        public static final int _800 = 0xFFF9A401;
+    }
 
-    public static final Map<String, String> RED = Map.of(
-        "100", "#FF7272",
-        "200", "#FA6C6C",
-        "300", "#FB6262",
-        "400", "#F05F5F",
-        "500", "#ED5C5C",
-        "600", "#F95151",
-        "700", "#EB4444",
-        "800", "#F23030",
-        "900", "#F41818"
-    );
+    public static class RED {
+        public static final int _100 = 0xFFFF7272;
+        public static final int _200 = 0xFFFA6C6C;
+        public static final int _300 = 0xFFFB6262;
+        public static final int _400 = 0xFFF05F5F;
+        public static final int _500 = 0xFFED5C5C;
+        public static final int _600 = 0xFFF95151;
+        public static final int _700 = 0xFFEB4444;
+        public static final int _800 = 0xFFF23030;
+        public static final int _900 = 0xFFF41818;
+    }
 
-    public static final Map<String, String> PINK = Map.of(
-        "100", "#FFA4B4",
-        "200", "#FF849B",
-        "300", "#FF728B",
-        "400", "#FC7089",
-        "500", "#FF6580",
-        "600", "#FF5573",
-        "700", "#FF4162"
-    );
+    public static class PINK {
+        public static final int _100 = 0xFFFFA4B4;
+        public static final int _200 = 0xFFFF849B;
+        public static final int _300 = 0xFFFF728B;
+        public static final int _400 = 0xFFFC7089;
+        public static final int _500 = 0xFFFF6580;
+        public static final int _600 = 0xFFFF5573;
+        public static final int _700 = 0xFFFF4162;
+    }
 
-    public static final Map<String, String> GREEN = Map.of(
-        "100", "#99CEB5",
-        "200", "#76C39E",
-        "300", "#58C18F",
-        "400", "#3EBF81",
-        "500", "#2AB472",
-        "600", "#20A867",
-        "700", "#109F5B",
-        "800", "#008C49",
-        "900", "#027F43"
-    );
+    public static class GREEN {
+        public static final int _100 = 0xFF99CEB5;
+        public static final int _200 = 0xFF76C39E;
+        public static final int _300 = 0xFF58C18F;
+        public static final int _400 = 0xFF3EBF81;
+        public static final int _500 = 0xFF2AB472;
+        public static final int _600 = 0xFF20A867;
+        public static final int _700 = 0xFF109F5B;
+        public static final int _800 = 0xFF008C49;
+        public static final int _900 = 0xFF027F43;
+    }
 
-    public static final Map<String, String> DARK_GREEN = Map.of(
-        "100", "#A2B7AD",
-        "200", "#85A696",
-        "300", "#6EA68B",
-        "400", "#5A8E75",
-        "500", "#5A8D7E",
-        "600", "#3D7359",
-        "700", "#32674E",
-        "800", "#23553D"
-    );
+    public static class DARK_GREEN {
+        public static final int _100 = 0xFFA2B7AD;
+        public static final int _200 = 0xFF85A696;
+        public static final int _300 = 0xFF6EA68B;
+        public static final int _400 = 0xFF5A8E75;
+        public static final int _500 = 0xFF5A8D7E;
+        public static final int _600 = 0xFF3D7359;
+        public static final int _700 = 0xFF32674E;
+        public static final int _800 = 0xFF23553D;
+    }
 
-    public static final Map<String, String> BEIGE = Map.of(
-        "100", "#DDC8B8",
-        "200", "#E1C7B4",
-        "300", "#D8C1A6",
-        "400", "#D3B797",
-        "500", "#CFAB83",
-        "600", "#D0A97C",
-        "700", "#DCA970"
-    );
+    public static class BEIGE {
+        public static final int _100 = 0xFFDDC8B8;
+        public static final int _200 = 0xFFE1C7B4;
+        public static final int _300 = 0xFFD8C1A6;
+        public static final int _400 = 0xFFD3B797;
+        public static final int _500 = 0xFFCFAB83;
+        public static final int _600 = 0xFFD0A97C;
+        public static final int _700 = 0xFFDCA970;
+    }
 
-    public static final Map<String, String> BROWN = Map.of(
-        "100", "#C69D7F",
-        "200", "#C4926E",
-        "300", "#B97F55",
-        "400", "#B26F3F",
-        "500", "#A15C29",
-        "600", "#934F1D",
-        "700", "#7C431A",
-        "800", "#593012",
-        "900", "#593E29"
-    );
+    public static class BROWN {
+        public static final int _100 = 0xFFC69D7F;
+        public static final int _200 = 0xFFC4926E;
+        public static final int _300 = 0xFFB97F55;
+        public static final int _400 = 0xFFB26F3F;
+        public static final int _500 = 0xFFA15C29;
+        public static final int _600 = 0xFF934F1D;
+        public static final int _700 = 0xFF7C431A;
+        public static final int _800 = 0xFF593012;
+        public static final int _900 = 0xFF593E29;
+    }
 
-    public static final Map<String, String> PASTEL_BLUE = Map.of(
-        "100", "#EDF2F9",
-        "200", "#E9F2FF",
-        "300", "#DDE6F2",
-        "400", "#D4E7FB",
-        "500", "#CFDDF6"
-    );
+    public static class PASTEL_BLUE {
+        public static final int _100 = 0xFFEDF2F9;
+        public static final int _200 = 0xFFE9F2FF;
+        public static final int _300 = 0xFFDDE6F2;
+        public static final int _400 = 0xFFD4E7FB;
+        public static final int _500 = 0xFFCFDDF6;
+    }
 
-    public static final Map<String, String> PASTEL_RED = Map.of(
-        "100", "#FFF4F4",
-        "200", "#F9EDED",
-        "300", "#FFE9E9",
-        "400", "#F6DFDF",
-        "500", "#F6D6D6"
-    );
+    public static class PASTEL_RED {
+        public static final int _100 = 0xFFFFF4F4;
+        public static final int _200 = 0xFFF9EDED;
+        public static final int _300 = 0xFFFFE9E9;
+        public static final int _400 = 0xFFF6DFDF;
+        public static final int _500 = 0xFFF6D6D6;
+    }
 
-    public static final Map<String, String> PASTEL_NAVY = Map.of(
-        "100", "#EDEFF9",
-        "200", "#E8EBF8",
-        "300", "#E1E4F0",
-        "400", "#D8DDEF",
-        "500", "#C6CCE4"
-    );
+    public static class PASTEL_NAVY {
+        public static final int _100 = 0xFFEDEFF9;
+        public static final int _200 = 0xFFE8EBF8;
+        public static final int _300 = 0xFFE1E4F0;
+        public static final int _400 = 0xFFD8DDEF;
+        public static final int _500 = 0xFFC6CCE4;
+    }
 
-    public static final Map<String, String> PASTEL_PURPLE = Map.of(
-        "100", "#E8E1F1",
-        "200", "#E3DBED",
-        "300", "#D9CEE6",
-        "400", "#D2C2E5",
-        "500", "#D2BCEC"
-    );
+    public static class PASTEL_PURPLE {
+        public static final int _100 = 0xFFE8E1F1;
+        public static final int _200 = 0xFFE3DBED;
+        public static final int _300 = 0xFFD9CEE6;
+        public static final int _400 = 0xFFD2C2E5;
+        public static final int _500 = 0xFFD2BCEC;
+    }
 
-    public static final Map<String, String> PASTEL_GREEN = Map.of(
-        "100", "#DEEDE1",
-        "200", "#D3E5D7",
-        "300", "#CDE3D2",
-        "400", "#C0DCC6",
-        "500", "#B9DBC1"
-    );
+    public static class PASTEL_GREEN {
+        public static final int _100 = 0xFFDEEDE1;
+        public static final int _200 = 0xFFD3E5D7;
+        public static final int _300 = 0xFFCDE3D2;
+        public static final int _400 = 0xFFC0DCC6;
+        public static final int _500 = 0xFFB9DBC1;
+    }
 
-    public static final Map<String, String> PASTEL_BROWN = Map.of(
-        "100", "#EDE5DE",
-        "200", "#ECDFD4",
-        "300", "#DDC8B6",
-        "400", "#D5B79E",
-        "500", "#DCB697"
-    );
+    public static class PASTEL_BROWN {
+        public static final int _100 = 0xFFEDE5DE;
+        public static final int _200 = 0xFFECDFD4;
+        public static final int _300 = 0xFFDDC8B6;
+        public static final int _400 = 0xFFD5B79E;
+        public static final int _500 = 0xFFDCB697;
+    }
 
-    public static final Map<String, String> PASTEL_YELLOW = Map.of(
-        "100", "#FBEED6",
-        "200", "#FAE7C5",
-        "300", "#F6DDC0",
-        "400", "#FADBBF",
-        "500", "#F9E4AF"
-    );
+    public static class PASTEL_YELLOW {
+        public static final int _100 = 0xFFFBEED6;
+        public static final int _200 = 0xFFFAE7C5;
+        public static final int _300 = 0xFFF6DDC0;
+        public static final int _400 = 0xFFFADBBF;
+        public static final int _500 = 0xFFF9E4AF;
+    }
 }

@@ -1,242 +1,241 @@
-// colors.dart
+import 'package:flutter/material.dart';
 
-class Colors {
-  static const String none = 'transparent';
+class AppColors {
+  static const Color none = Colors.transparent;
 
-  static const String white = '#ffffff';
+  static const Color white = Color(0xFFFFFFFF);
+  static const Color black = Color(0xFF111111);
 
-  static const String black = '#111111';
-
-  static const Map<String, String> chiffon = {
-    '100': '#FAFAFA',
-    '200': '#F8F8F8',
-    '300': '#F4F4F4',
-    '400': '#EEEEEE',
-    '500': '#E2E2E2',
-    '600': '#CCCCCC',
-    '700': '#C2C2C2',
-    '800': '#BBBBBB',
+  static const Map<String, Color> chiffon = {
+    '100': Color(0xFFFAFAFA),
+    '200': Color(0xFFF8F8F8),
+    '300': Color(0xFFF4F4F4),
+    '400': Color(0xFFEEEEEE),
+    '500': Color(0xFFE2E2E2),
+    '600': Color(0xFFCCCCCC),
+    '700': Color(0xFFC2C2C2),
+    '800': Color(0xFFBBBBBB),
   };
 
-  static const Map<String, String> tel = {
-    '100': '#F8F9Fc',
-    '200': '#F5F7Fc',
-    '300': '#F3F4FC',
-    '400': '#EEF4FD',
-    '500': '#E5EDF8',
-    '600': '#E3EBF6',
+  static const Map<String, Color> tel = {
+    '100': Color(0xFFF8F9FC),
+    '200': Color(0xFFF5F7FC),
+    '300': Color(0xFFF3F4FC),
+    '400': Color(0xFFEEF4FD),
+    '500': Color(0xFFE5EDF8),
+    '600': Color(0xFFE3EBF6),
   };
 
-  static const Map<String, String> grey = {
-    '100': '#aaaaaa',
-    '200': '#9D9E9F',
-    '300': '#898A8D',
-    '400': '#797979',
-    '500': '#666666',
-    '600': '#555555',
-    '700': '#444444',
-    '800': '#333333',
-    '900': '#222222',
+  static const Map<String, Color> grey = {
+    '100': Color(0xFFAAAAAA),
+    '200': Color(0xFF9D9E9F),
+    '300': Color(0xFF898A8D),
+    '400': Color(0xFF797979),
+    '500': Color(0xFF666666),
+    '600': Color(0xFF555555),
+    '700': Color(0xFF444444),
+    '800': Color(0xFF333333),
+    '900': Color(0xFF222222),
   };
 
-  static const Map<String, String> navy = {
-    '100': '#9DA5B6',
-    '200': '#78829A',
-    '300': '#6E7993',
-    '400': '#56647F',
-    '500': '#445067',
-    '600': '#384661',
-    '700': '#31405E',
-    '800': '#263551',
+  static const Map<String, Color> navy = {
+    '100': Color(0xFF9DA5B6),
+    '200': Color(0xFF78829A),
+    '300': Color(0xFF6E7993),
+    '400': Color(0xFF56647F),
+    '500': Color(0xFF445067),
+    '600': Color(0xFF384661),
+    '700': Color(0xFF31405E),
+    '800': Color(0xFF263551),
   };
 
-  static const Map<String, String> blue = {
-    '100': '#72AAFF',
-    '200': '#6BA1F7',
-    '300': '#5E9EFF',
-    '400': '#5294FF',
-    '500': '#4788f4',
-    '600': '#3F87FF',
-    '700': '#2F7DFF',
-    '800': '#1D70FB',
+  static const Map<String, Color> blue = {
+    '100': Color(0xFF72AAFF),
+    '200': Color(0xFF6BA1F7),
+    '300': Color(0xFF5E9EFF),
+    '400': Color(0xFF5294FF),
+    '500': Color(0xFF4788F4),
+    '600': Color(0xFF3F87FF),
+    '700': Color(0xFF2F7DFF),
+    '800': Color(0xFF1D70FB),
   };
 
-  static const Map<String, String> lightBlue = {
-    '100': '#86D3FF',
-    '200': '#76CDFE',
-    '300': '#67C4F9',
-    '400': '#55BEFA',
-    '500': '#43BAFF',
-    '600': '#38B5FB',
-    '700': '#32B5FF',
-    '800': '#19ACFF',
+  static const Map<String, Color> lightBlue = {
+    '100': Color(0xFF86D3FF),
+    '200': Color(0xFF76CDFE),
+    '300': Color(0xFF67C4F9),
+    '400': Color(0xFF55BEFA),
+    '500': Color(0xFF43BAFF),
+    '600': Color(0xFF38B5FB),
+    '700': Color(0xFF32B5FF),
+    '800': Color(0xFF19ACFF),
   };
 
-  static const Map<String, String> darkBlue = {
-    '100': '#7280FF',
-    '200': '#6B71F7',
-    '300': '#6171FF',
-    '400': '#5969FB',
-    '500': '#5263FF',
-    '600': '#4B5DFF',
-    '700': '#4456F9',
-    '800': '#3448FF',
-    '900': '#2E42F6',
+  static const Map<String, Color> darkBlue = {
+    '100': Color(0xFF7280FF),
+    '200': Color(0xFF6B71F7),
+    '300': Color(0xFF6171FF),
+    '400': Color(0xFF5969FB),
+    '500': Color(0xFF5263FF),
+    '600': Color(0xFF4B5DFF),
+    '700': Color(0xFF4456F9),
+    '800': Color(0xFF3448FF),
+    '900': Color(0xFF2E42F6),
   };
 
-  static const Map<String, String> purple = {
-    '100': '#A791FF',
-    '200': '#AB83FF',
-    '300': '#9B6DFE',
-    '400': '#8F5BFF',
-    '500': '#9A4BFF',
-    '600': '#903DFA',
-    '700': '#8527FD',
-    '800': '#7C15FF',
+  static const Map<String, Color> purple = {
+    '100': Color(0xFFA791FF),
+    '200': Color(0xFFAB83FF),
+    '300': Color(0xFF9B6DFE),
+    '400': Color(0xFF8F5BFF),
+    '500': Color(0xFF9A4BFF),
+    '600': Color(0xFF903DFA),
+    '700': Color(0xFF8527FD),
+    '800': Color(0xFF7C15FF),
   };
 
-  static const Map<String, String> yellow = {
-    '100': '#FFE793',
-    '200': '#FFE072',
-    '300': '#FFDD64',
-    '400': '#FFCF72',
-    '500': '#FFDA17',
-    '600': '#FFD336',
-    '700': '#FFD600',
-    '800': '#F7D000',
+  static const Map<String, Color> yellow = {
+    '100': Color(0xFFFFE793),
+    '200': Color(0xFFFFE072),
+    '300': Color(0xFFFFDD64),
+    '400': Color(0xFFFFCF72),
+    '500': Color(0xFFFFDA17),
+    '600': Color(0xFFFFD336),
+    '700': Color(0xFFFFD600),
+    '800': Color(0xFFF7D000),
   };
 
-  static const Map<String, String> orange = {
-    '100': '#FFD687',
-    '200': '#FFCF72',
-    '300': '#FFC452',
-    '400': '#FFB932',
-    '500': '#FEB703',
-    '600': '#FFAC0A',
-    '700': '#FF9900',
-    '800': '#F9A401',
+  static const Map<String, Color> orange = {
+    '100': Color(0xFFFFD687),
+    '200': Color(0xFFFFCF72),
+    '300': Color(0xFFFFC452),
+    '400': Color(0xFFFFB932),
+    '500': Color(0xFFFEB703),
+    '600': Color(0xFFFFAC0A),
+    '700': Color(0xFFFF9900),
+    '800': Color(0xFFF9A401),
   };
 
-  static const Map<String, String> red = {
-    '100': '#FF7272',
-    '200': '#FA6C6C',
-    '300': '#FB6262',
-    '400': '#F05F5F',
-    '500': '#ED5C5C',
-    '600': '#F95151',
-    '700': '#EB4444',
-    '800': '#F23030',
-    '900': '#F41818',
+  static const Map<String, Color> red = {
+    '100': Color(0xFFFF7272),
+    '200': Color(0xFFFA6C6C),
+    '300': Color(0xFFFB6262),
+    '400': Color(0xFFF05F5F),
+    '500': Color(0xFFED5C5C),
+    '600': Color(0xFFF95151),
+    '700': Color(0xFFEB4444),
+    '800': Color(0xFFF23030),
+    '900': Color(0xFFF41818),
   };
 
-  static const Map<String, String> pink = {
-    '100': '#FFA4B4',
-    '200': '#FF849B',
-    '300': '#FF728B',
-    '400': '#FC7089',
-    '500': '#FF6580',
-    '600': '#FF5573',
-    '700': '#FF4162',
+  static const Map<String, Color> pink = {
+    '100': Color(0xFFFFA4B4),
+    '200': Color(0xFFFF849B),
+    '300': Color(0xFFFF728B),
+    '400': Color(0xFFFC7089),
+    '500': Color(0xFFFF6580),
+    '600': Color(0xFFFF5573),
+    '700': Color(0xFFFF4162),
   };
 
-  static const Map<String, String> green = {
-    '100': '#99CEB5',
-    '200': '#76C39E',
-    '300': '#58C18F',
-    '400': '#3EBF81',
-    '500': '#2AB472',
-    '600': '#20A867',
-    '700': '#109F5B',
-    '800': '#008C49',
-    '900': '#027F43',
+  static const Map<String, Color> green = {
+    '100': Color(0xFF99CEB5),
+    '200': Color(0xFF76C39E),
+    '300': Color(0xFF58C18F),
+    '400': Color(0xFF3EBF81),
+    '500': Color(0xFF2AB472),
+    '600': Color(0xFF20A867),
+    '700': Color(0xFF109F5B),
+    '800': Color(0xFF008C49),
+    '900': Color(0xFF027F43),
   };
 
-  static const Map<String, String> darkGreen = {
-    '100': '#A2B7AD',
-    '200': '#85A696',
-    '300': '#6EA68B',
-    '400': '#5A8E75',
-    '500': '#5A8D7E',
-    '600': '#3D7359',
-    '700': '#32674E',
-    '800': '#23553D',
+  static const Map<String, Color> darkGreen = {
+    '100': Color(0xFFA2B7AD),
+    '200': Color(0xFF85A696),
+    '300': Color(0xFF6EA68B),
+    '400': Color(0xFF5A8E75),
+    '500': Color(0xFF5A8D7E),
+    '600': Color(0xFF3D7359),
+    '700': Color(0xFF32674E),
+    '800': Color(0xFF23553D),
   };
 
-  static const Map<String, String> beige = {
-    '100': '#DDC8B8',
-    '200': '#E1C7B4',
-    '300': '#D8C1A6',
-    '400': '#D3B797',
-    '500': '#CFAB83',
-    '600': '#D0A97C',
-    '700': '#DCA970',
+  static const Map<String, Color> beige = {
+    '100': Color(0xFFDDC8B8),
+    '200': Color(0xFFE1C7B4),
+    '300': Color(0xFFD8C1A6),
+    '400': Color(0xFFD3B797),
+    '500': Color(0xFFCFAB83),
+    '600': Color(0xFFD0A97C),
+    '700': Color(0xFFDCA970),
   };
 
-  static const Map<String, String> brown = {
-    '100': '#C69D7F',
-    '200': '#C4926E',
-    '300': '#B97F55',
-    '400': '#B26F3F',
-    '500': '#A15C29',
-    '600': '#934F1D',
-    '700': '#7C431A',
-    '800': '#593012',
-    '900': '#593E29',
+  static const Map<String, Color> brown = {
+    '100': Color(0xFFC69D7F),
+    '200': Color(0xFFC4926E),
+    '300': Color(0xFFB97F55),
+    '400': Color(0xFFB26F3F),
+    '500': Color(0xFFA15C29),
+    '600': Color(0xFF934F1D),
+    '700': Color(0xFF7C431A),
+    '800': Color(0xFF593012),
+    '900': Color(0xFF593E29),
   };
 
-  static const Map<String, String> pastelBlue = {
-    '100': '#EDF2F9',
-    '200': '#E9F2FF',
-    '300': '#DDE6F2',
-    '400': '#D4E7FB',
-    '500': '#CFDDF6',
+  static const Map<String, Color> pastelBlue = {
+    '100': Color(0xFFEDF2F9),
+    '200': Color(0xFFE9F2FF),
+    '300': Color(0xFFDDE6F2),
+    '400': Color(0xFFD4E7FB),
+    '500': Color(0xFFCFDDF6),
   };
 
-  static const Map<String, String> pastelRed = {
-    '100': '#FFF4F4',
-    '200': '#F9EDED',
-    '300': '#FFE9E9',
-    '400': '#F6DFDF',
-    '500': '#F6D6D6',
+  static const Map<String, Color> pastelRed = {
+    '100': Color(0xFFFFF4F4),
+    '200': Color(0xFFF9EDED),
+    '300': Color(0xFFFFE9E9),
+    '400': Color(0xFFF6DFDF),
+    '500': Color(0xFFF6D6D6),
   };
 
-  static const Map<String, String> pastelNavy = {
-    '100': '#EDEFF9',
-    '200': '#E8EBF8',
-    '300': '#E1E4F0',
-    '400': '#D8DDEF',
-    '500': '#C6CCE4',
+  static const Map<String, Color> pastelNavy = {
+    '100': Color(0xFFEDEFF9),
+    '200': Color(0xFFE8EBF8),
+    '300': Color(0xFFE1E4F0),
+    '400': Color(0xFFD8DDEF),
+    '500': Color(0xFFC6CCE4),
   };
 
-  static const Map<String, String> pastelPurple = {
-    '100': '#E8E1F1',
-    '200': '#E3DBED',
-    '300': '#D9CEE6',
-    '400': '#D2C2E5',
-    '500': '#D2BCEC',
+  static const Map<String, Color> pastelPurple = {
+    '100': Color(0xFFE8E1F1),
+    '200': Color(0xFFE3DBED),
+    '300': Color(0xFFD9CEE6),
+    '400': Color(0xFFD2C2E5),
+    '500': Color(0xFFD2BCEC),
   };
 
-  static const Map<String, String> pastelGreen = {
-    '100': '#DEEDE1',
-    '200': '#D3E5D7',
-    '300': '#CDE3D2',
-    '400': '#C0DCC6',
-    '500': '#B9DBC1',
+  static const Map<String, Color> pastelGreen = {
+    '100': Color(0xFFDEEDE1),
+    '200': Color(0xFFD3E5D7),
+    '300': Color(0xFFCDE3D2),
+    '400': Color(0xFFC0DCC6),
+    '500': Color(0xFFB9DBC1),
   };
 
-  static const Map<String, String> pastelBrown = {
-    '100': '#EDE5DE',
-    '200': '#ECDFD4',
-    '300': '#DDC8B6',
-    '400': '#D5B79E',
-    '500': '#DCB697',
+  static const Map<String, Color> pastelBrown = {
+    '100': Color(0xFFEDE5DE),
+    '200': Color(0xFFECDFD4),
+    '300': Color(0xFFDDC8B6),
+    '400': Color(0xFFD5B79E),
+    '500': Color(0xFFDCB697),
   };
 
-  static const Map<String, String> pastelYellow = {
-    '100': '#FBEED6',
-    '200': '#FAE7C5',
-    '300': '#F6DDC0',
-    '400': '#FADBBF',
-    '500': '#F9E4AF',
+  static const Map<String, Color> pastelYellow = {
+    '100': Color(0xFFFBEED6),
+    '200': Color(0xFFFAE7C5),
+    '300': Color(0xFFF6DDC0),
+    '400': Color(0xFFFADBBF),
+    '500': Color(0xFFF9E4AF),
   };
 }

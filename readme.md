@@ -13,7 +13,8 @@ It is a design color palette extension that is useful for available development 
 
 - javascript
 - typescript
-- kotlin
+- kotlin (Compose UI)
+- java 
 - swift
 - dart
 
